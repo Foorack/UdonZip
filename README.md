@@ -97,7 +97,7 @@ Returns a string array of all file names. File names always include the full pat
 #### 🔵 object GetFile(object archive, string filePath)
 Returns a file object representing the file with given filePath.
 
-#### 🔵 byte[] GetFileData(object data, int index)
+#### 🔵 byte[] GetFileData(object file)
 Returns a `byte[]` containing the raw uncompressed data of the file.
 The first time you access a file it will decompress it if necessary.
 The second time and on it will always return the already compressed data, making it significantly faster.
