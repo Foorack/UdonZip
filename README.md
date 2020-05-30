@@ -21,7 +21,7 @@ For this purpose a full XML library has already been implemented, which you can 
 
 1. Go to [Releases](https://github.com/Foorack/UdonZip/releases) and download the latest release. The file should end with `unitypackage`. If you can't find it, ask for help on Discord.
 2. Import the package into Unity with Assets > Import Package > Custom Package. This will import the files to `Resources > Foorack > UdonXML`.
-3. Create an Empty GameObject in your Scene, name it `UdonXML` and assign it the UdonXML UdonBehaviour.
+3. Create an Empty GameObject in your Scene, name it `UdonZip` and assign it the UdonZip UdonBehaviour.
 
 ### Getting started
 
@@ -98,7 +98,8 @@ Returns a string array of all file names. File names always include the full pat
 Returns a file object representing the file with given filePath.
 
 #### 🔵 byte[] GetFileData(object file)
-Returns a `byte[]` containing the raw uncompressed data of the file.
+Returns a byte array containing the raw uncompressed data of the file.
+
 The first time you access a file it will decompress it if necessary.
 The second time and on it will always return the already compressed data, making it significantly faster.
 
