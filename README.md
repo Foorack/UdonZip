@@ -20,7 +20,7 @@ For this purpose a full XML library has already been implemented, which you can 
 ### Installation
 
 1. Go to [Releases](https://github.com/Foorack/UdonZip/releases) and download the latest release. The file should end with `unitypackage`. If you can't find it, ask for help on Discord.
-2. Import the package into Unity with Assets > Import Package > Custom Package. This will import the files to `Resources > Foorack > UdonXML`.
+2. Import the package into Unity with Assets > Import Package > Custom Package. This will import the files to `Resources > Foorack > UdonZip`.
 3. Create an Empty GameObject in your Scene, name it `UdonZip` and assign it the UdonZip UdonBehaviour.
 
 ### Getting started
