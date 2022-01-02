@@ -668,7 +668,7 @@ public class UdonZip : UdonSharpBehaviour
             var n = data[i + 1];
             var d1 = data[i + 2];
             var d2 = data[i + 3];
-            if (c == 'P' && n == 'K' && d1 == 0x05 && d2 == 0x06)
+            if (c == (byte) 'P' && n == (byte) 'K' && d1 == 0x05 && d2 == 0x06)
             {
                 return i;
             }
